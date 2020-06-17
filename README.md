@@ -1,5 +1,5 @@
 # Morse Code Transmitter
-Made in collaboration by Garret Andreine, Wesley Heim, and Shane Hewitt.
+Made in collaboration by GarretAnd, Wesley Heim, and Shane Hewitt.
 
 Morse Code Transmitter on Basys 3 Board written in VHDL for Engs 31/CS 56 Final Project.
 
