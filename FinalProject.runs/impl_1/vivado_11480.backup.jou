@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3.1 (64-bit)
+# SW Build 2489853 on Tue Mar 26 04:20:25 MDT 2019
+# IP Build 2486929 on Tue Mar 26 06:44:21 MDT 2019
+# Start of session at: Tue Jun  9 02:39:10 2020
+# Process ID: 11480
+# Current directory: O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.runs/impl_1
+# Command line: vivado.exe -log TopLevel.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TopLevel.tcl -notrace
+# Log file: O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.runs/impl_1/TopLevel.vdi
+# Journal file: O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TopLevel.tcl -notrace

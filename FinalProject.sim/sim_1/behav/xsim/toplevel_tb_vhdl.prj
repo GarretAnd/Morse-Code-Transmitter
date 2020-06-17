@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FinalProject.srcs/sources_1/new/Decode_Block.vhd" \
+"../../../../FinalProject.srcs/sources_1/new/Output_Logic_Block.vhd" \
+"../../../../FinalProject.srcs/sources_1/new/Queue.vhd" \
+"../../../../FinalProject.srcs/sources_1/new/TopLevel.vhd" \
+"../../../../FinalProject.srcs/sources_1/new/UART_Rx.vhd" \
+"../../../../FinalProject.srcs/sources_1/new/UART_Tx.vhd" \
+"../../../../FinalProject.srcs/sources_1/new/display.vhd" \
+"../../../../FinalProject.srcs/sources_1/new/oscillator_logic_block.vhd" \
+"../../../../FinalProject.srcs/sim_1/new/Morse_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="toplevel_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="toplevel_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="17620000000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="125"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="60" />
+   <wvobject fp_name="/toplevel_tb/RsRx" type="logic">
+      <obj_property name="ElementShortName">RsRx</obj_property>
+      <obj_property name="ObjectShortName">RsRx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/RsTx" type="logic">
+      <obj_property name="ElementShortName">RsTx</obj_property>
+      <obj_property name="ObjectShortName">RsTx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/LED_flash" type="logic">
+      <obj_property name="ElementShortName">LED_flash</obj_property>
+      <obj_property name="ObjectShortName">LED_flash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/queue_in" type="logic">
+      <obj_property name="ElementShortName">queue_in</obj_property>
+      <obj_property name="ObjectShortName">queue_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/enter" type="logic">
+      <obj_property name="ElementShortName">enter</obj_property>
+      <obj_property name="ObjectShortName">enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/queue_out" type="logic">
+      <obj_property name="ElementShortName">queue_out</obj_property>
+      <obj_property name="ObjectShortName">queue_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Memory_map/addra" type="array">
+      <obj_property name="ElementShortName">addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Memory_map/douta" type="array">
+      <obj_property name="ElementShortName">douta[19:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/decoder_finished" type="logic">
+      <obj_property name="ElementShortName">decoder_finished</obj_property>
+      <obj_property name="ObjectShortName">decoder_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/ready_mp" type="logic">
+      <obj_property name="ElementShortName">ready_mp</obj_property>
+      <obj_property name="ObjectShortName">ready_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/twenty_str" type="array">
+      <obj_property name="ElementShortName">twenty_str[19:0]</obj_property>
+      <obj_property name="ObjectShortName">twenty_str[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/block_addr" type="array">
+      <obj_property name="ElementShortName">block_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">block_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/w_addr" type="other">
+      <obj_property name="ElementShortName">w_addr</obj_property>
+      <obj_property name="ObjectShortName">w_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/r_addr" type="other">
+      <obj_property name="ElementShortName">r_addr</obj_property>
+      <obj_property name="ObjectShortName">r_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/space" type="logic">
+      <obj_property name="ElementShortName">space</obj_property>
+      <obj_property name="ObjectShortName">space</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/load_en" type="logic">
+      <obj_property name="ElementShortName">load_en</obj_property>
+      <obj_property name="ObjectShortName">load_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/output_en" type="logic">
+      <obj_property name="ElementShortName">output_en</obj_property>
+      <obj_property name="ObjectShortName">output_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/letterpause_en" type="logic">
+      <obj_property name="ElementShortName">letterpause_en</obj_property>
+      <obj_property name="ObjectShortName">letterpause_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Memory_map/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Memory_map/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/output_done" type="logic">
+      <obj_property name="ElementShortName">output_done</obj_property>
+      <obj_property name="ObjectShortName">output_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/letterpause_done" type="logic">
+      <obj_property name="ElementShortName">letterpause_done</obj_property>
+      <obj_property name="ObjectShortName">letterpause_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/read_ahead" type="logic">
+      <obj_property name="ElementShortName">read_ahead</obj_property>
+      <obj_property name="ObjectShortName">read_ahead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/space" type="logic">
+      <obj_property name="ElementShortName">space</obj_property>
+      <obj_property name="ObjectShortName">space</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/uart_mp" type="logic">
+      <obj_property name="ElementShortName">uart_mp</obj_property>
+      <obj_property name="ObjectShortName">uart_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/uart_data" type="array">
+      <obj_property name="ElementShortName">uart_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/decoder_in_en" type="logic">
+      <obj_property name="ElementShortName">decoder_in_en</obj_property>
+      <obj_property name="ObjectShortName">decoder_in_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/enter" type="logic">
+      <obj_property name="ElementShortName">enter</obj_property>
+      <obj_property name="ObjectShortName">enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/char_out" type="array">
+      <obj_property name="ElementShortName">char_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/in_reg_en" type="logic">
+      <obj_property name="ElementShortName">in_reg_en</obj_property>
+      <obj_property name="ObjectShortName">in_reg_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/queue_in" type="logic">
+      <obj_property name="ElementShortName">queue_in</obj_property>
+      <obj_property name="ObjectShortName">queue_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/queue_out" type="logic">
+      <obj_property name="ElementShortName">queue_out</obj_property>
+      <obj_property name="ObjectShortName">queue_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Queue_input/enter_detected" type="logic">
+      <obj_property name="ElementShortName">enter_detected</obj_property>
+      <obj_property name="ObjectShortName">enter_detected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/enter" type="logic">
+      <obj_property name="ElementShortName">enter</obj_property>
+      <obj_property name="ObjectShortName">enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/led_buzz" type="logic">
+      <obj_property name="ElementShortName">led_buzz</obj_property>
+      <obj_property name="ObjectShortName">led_buzz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/space" type="logic">
+      <obj_property name="ElementShortName">space</obj_property>
+      <obj_property name="ObjectShortName">space</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/decoder_out" type="array">
+      <obj_property name="ElementShortName">decoder_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">decoder_out[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/decoder_mp" type="logic">
+      <obj_property name="ElementShortName">decoder_mp</obj_property>
+      <obj_property name="ObjectShortName">decoder_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/enter" type="logic">
+      <obj_property name="ElementShortName">enter</obj_property>
+      <obj_property name="ObjectShortName">enter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/ready_mp" type="logic">
+      <obj_property name="ElementShortName">ready_mp</obj_property>
+      <obj_property name="ObjectShortName">ready_mp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/led_buzz" type="logic">
+      <obj_property name="ElementShortName">led_buzz</obj_property>
+      <obj_property name="ObjectShortName">led_buzz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/read_bit" type="other">
+      <obj_property name="ElementShortName">read_bit</obj_property>
+      <obj_property name="ObjectShortName">read_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/decoded_reg" type="array">
+      <obj_property name="ElementShortName">decoded_reg[19:0]</obj_property>
+      <obj_property name="ObjectShortName">decoded_reg[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/on_count" type="array">
+      <obj_property name="ElementShortName">on_count[22:0]</obj_property>
+      <obj_property name="ObjectShortName">on_count[22:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/load_en" type="logic">
+      <obj_property name="ElementShortName">load_en</obj_property>
+      <obj_property name="ObjectShortName">load_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/idle_en" type="logic">
+      <obj_property name="ElementShortName">idle_en</obj_property>
+      <obj_property name="ObjectShortName">idle_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/output_en" type="logic">
+      <obj_property name="ElementShortName">output_en</obj_property>
+      <obj_property name="ObjectShortName">output_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/letterpause_en" type="logic">
+      <obj_property name="ElementShortName">letterpause_en</obj_property>
+      <obj_property name="ObjectShortName">letterpause_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/start_en" type="logic">
+      <obj_property name="ElementShortName">start_en</obj_property>
+      <obj_property name="ObjectShortName">start_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/output_done" type="logic">
+      <obj_property name="ElementShortName">output_done</obj_property>
+      <obj_property name="ObjectShortName">output_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/letterpause_done" type="logic">
+      <obj_property name="ElementShortName">letterpause_done</obj_property>
+      <obj_property name="ObjectShortName">letterpause_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/read_ahead" type="logic">
+      <obj_property name="ElementShortName">read_ahead</obj_property>
+      <obj_property name="ObjectShortName">read_ahead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/space" type="logic">
+      <obj_property name="ElementShortName">space</obj_property>
+      <obj_property name="ObjectShortName">space</obj_property>
+   </wvobject>
+   <wvobject fp_name="/toplevel_tb/uut/Output_timer/T" type="other">
+      <obj_property name="ElementShortName">T</obj_property>
+      <obj_property name="ObjectShortName">T</obj_property>
+   </wvobject>
+</wave_config>

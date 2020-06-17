@@ -1,0 +1,15 @@
+0.6
+2018.3
+Mar 26 2019
+04:57:32
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.sim/sim_1/behav/xsim/glbl.v,1591643558,verilog,,,,glbl,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sim_1/new/Morse_tb.vhd,1591643573,vhdl,,,,toplevel_tb,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/ip/blk_mem_gen_0_2/sim/blk_mem_gen_0.v,1591648254,verilog,,,,blk_mem_gen_0,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/Decode_Block.vhd,1591682980,vhdl,,,,decoder,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/Output_Logic_Block.vhd,1591685879,vhdl,,,,output_logic,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/Queue.vhd,1591643572,vhdl,,,,queue_block,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/TopLevel.vhd,1591687919,vhdl,,,,toplevel,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/UART_Rx.vhd,1591643572,vhdl,,,,serialrx,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/UART_Tx.vhd,1591643572,vhdl,,,,serialtx,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/display.vhd,1591683065,vhdl,,,,mux7seg,,,,,,,,
+O:/ENGS_31_20S/WesleyShaneGarretFinalProject_v3/FinalProject.srcs/sources_1/new/oscillator_logic_block.vhd,1591647175,vhdl,,,,oscillator,,,,,,,,

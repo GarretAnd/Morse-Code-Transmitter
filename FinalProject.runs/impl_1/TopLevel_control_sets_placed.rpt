@@ -1,0 +1,89 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3.1 (win64) Build 2489853 Tue Mar 26 04:20:25 MDT 2019
+| Date         : Tue Jun  9 03:57:21 2020
+| Host         : vlab-072 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TopLevel_control_sets_placed.rpt
+| Design       : TopLevel
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    42 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            2 |
+|      5 |            1 |
+|      8 |            5 |
+|     11 |            2 |
+|    16+ |            9 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1230 |          433 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             116 |           31 |
+| Yes          | No                    | No                     |              93 |           29 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             103 |           31 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------------------------------------+---------------------------------------------+------------------+----------------+
+|  Clock Signal  |                   Enable Signal                  |               Set/Reset Signal              | Slice Load Count | Bel Load Count |
++----------------+--------------------------------------------------+---------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                                  |                                             |                1 |              2 |
+|  clk10         | Queue_input/FSM_onehot_current_state[3]_i_1_n_0  |                                             |                1 |              4 |
+|  clk10         | Receiver/shift_flag                              | Receiver/Irx_data[7]_i_1_n_0                |                1 |              4 |
+|  clk10         | Output_timer/FSM_onehot_current_state[4]_i_1_n_0 |                                             |                2 |              5 |
+|  clk10         | Queue_input/Q[1]                                 |                                             |                3 |              8 |
+|  clk10         | Receiver/Irx_data[7]_i_1_n_0                     |                                             |                2 |              8 |
+|  clk10         | Receiver/E[0]                                    |                                             |                3 |              8 |
+|  clk10         | Receiver/shift_flag                              |                                             |                4 |              8 |
+|  clk10         | Decoder_map/done_tick                            | Decoder_map/FSM_onehot_current_state_reg[3] |                5 |              8 |
+|  clk10         |                                                  | Receiver/SR[0]                              |                4 |             11 |
+|  clk10         |                                                  | display/cdcount[10]_i_1_n_0                 |                3 |             11 |
+|  clk10         | Output_timer/load_en                             |                                             |                5 |             20 |
+|  clk10         | Output_timer/on_count[0]_i_2_n_0                 | Output_timer/on_count[0]_i_1_n_0            |                6 |             23 |
+|  clk10         |                                                  | sound_clk_en                                |                8 |             31 |
+|  clk10         | Decoder_map/char_out1                            | Queue_input/r_addr[31]_i_1_n_0              |                8 |             31 |
+|  clk_IBUF_BUFG |                                                  | clk_en                                      |                8 |             31 |
+|  clk10         |                                                  | Receiver/clear                              |                8 |             32 |
+|  clk10         | Output_timer/read_bit_0                          |                                             |                9 |             32 |
+|  clk10         | Queue_input/queue_in                             | Queue_input/w_addr[31]_i_1_n_0              |               11 |             37 |
+|  clk10         |                                                  |                                             |              432 |           1228 |
++----------------+--------------------------------------------------+---------------------------------------------+------------------+----------------+
+
+

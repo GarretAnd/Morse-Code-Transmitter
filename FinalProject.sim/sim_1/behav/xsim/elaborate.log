@@ -1,0 +1,33 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 39b980734e4f4d7d821e49621507dd50 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot toplevel_tb_behav xil_defaultlib.toplevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture behavior of entity xil_defaultlib.SerialRx [serialrx_default]
+Compiling architecture behavior of entity xil_defaultlib.SerialTx [serialtx_default]
+Compiling architecture behavior of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Queue_Block [queue_block_default]
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture behavioral of entity xil_defaultlib.Output_Logic [output_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.oscillator [oscillator_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux7seg [mux7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.TopLevel [toplevel_default]
+Compiling architecture behavior of entity xil_defaultlib.toplevel_tb
+Built simulation snapshot toplevel_tb_behav
